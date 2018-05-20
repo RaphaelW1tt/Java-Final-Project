@@ -1,4 +1,3 @@
-//import de.wwu.intro.prog.InputStringReader;
 import java.awt.Color;
 import java.io.IOException;
 import geometry.*;
@@ -285,10 +284,10 @@ public class ReadInCities {
 		outputDescription.setX(30);
 		outputDescription.setY(50);
 		
-		Label outputDesctiptionLabel = new Label();
-		outputDesctiptionLabel.setText("The circles' areas represent the area of the cities and the colors represent the population density.");
-		outputDesctiptionLabel.setPosition(outputDescription);
-		frame.addToPlot(outputDesctiptionLabel);
+		Label outputDescriptionLabel = new Label();
+		outputDescriptionLabel.setText("The circles' areas represent the area of the cities and the colors represent the population density.");
+		outputDescriptionLabel.setPosition(outputDescription);
+		frame.addToPlot(outputDescriptionLabel);
 		
 		frame.drawAllFeature();
 	}
